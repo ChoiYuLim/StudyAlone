@@ -1,4 +1,4 @@
-package com.yulim.studyalone
+package com.yulim.studyalone.component
 
 /*
     schoolName이라는 멤버 변수를 가지며 moveSchool 메서드를 통해

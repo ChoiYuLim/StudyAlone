@@ -1,5 +1,7 @@
 package com.yulim.studyalone
 
+import com.yulim.studyalone.component.SchoolService
+import com.yulim.studyalone.component.StudentController
 import org.koin.dsl.module
 
 /*

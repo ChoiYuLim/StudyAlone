@@ -1,4 +1,4 @@
-package com.yulim.studyalone
+package com.yulim.studyalone.component
 
 /*
     생성자로 SchoolService 클래스의 인스턴스를 전달받고 있으며 print 메서드를 통해

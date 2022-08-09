@@ -2,6 +2,8 @@ package com.yulim.studyalone
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.yulim.studyalone.component.SchoolService
+import com.yulim.studyalone.component.StudentController
 import com.yulim.studyalone.databinding.ActivityMainBinding
 import org.koin.android.ext.android.inject
 
