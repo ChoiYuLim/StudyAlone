@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.yulim.studyalone.databinding.ActivityMainBinding
 import org.koin.android.ext.android.inject
 
+/*
+    두개의 클래스가 자료형인 각각의 멤버 변수를 만든 뒤 by inject()를 통해 의존성 주입
+ */
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
