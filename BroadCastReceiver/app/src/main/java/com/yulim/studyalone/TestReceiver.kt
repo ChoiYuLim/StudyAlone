@@ -7,7 +7,6 @@ import android.widget.Toast
 
 class TestReceiver : BroadcastReceiver() {
 
-    //intent에 해당 Reciver 넣어서 sendBroadCast 하면 해당 Reciver를 받을 수 있는 앱이 받고 onReceive 동작을 함
     override fun onReceive(context: Context?, intent: Intent?) {
         if (Intent.ACTION_POWER_CONNECTED.equals(intent!!.action)) {
             Toast.makeText(context, "전원연결", Toast.LENGTH_SHORT).show()
